@@ -4,7 +4,7 @@
 
 int main(){
     add_student();
-    printf("\n----------\n");
-    get_studet_info();
+    studet_info();
+    student_list();
     return 0;
 }

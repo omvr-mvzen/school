@@ -5,5 +5,6 @@
 #include <stdlib.h>
 
 void add_student(void);
-void get_studet_info(void);
+void studet_info(void);
+void student_list(void);
 #endif
