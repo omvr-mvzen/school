@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "student.h"
+#include "control_panel.h"
 
 int main(){
-    add_student();
-    studet_info();
-    student_list();
+    control_panel();
     return 0;
 }

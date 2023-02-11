@@ -17,6 +17,7 @@ typedef struct Student
 Student student[MAX_STUDENT];
 
 void add_into_student(int index,int id,char name[MAX_LENGTH],int grade);
-void get_from_student(int LastIndex,int id,char*name,int *grade);
+int delete_from_student(int id,int * LastIndex);
+int get_from_student(int LastIndex,int id,char*name,int *grade);
 void get_all_from_student(int currentIndex,int LastIndex,int *id,char*name,int *grade);
 #endif
