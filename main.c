@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "control_panel.h"
+#include "login.h"
+#define TRUE 1
 
 int main(){
-    control_panel();
+    while (TRUE)
+    {
+    login();
+    }
     return 0;
 }
